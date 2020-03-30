@@ -22,7 +22,7 @@ extra_css:
     - css/extra.css
 
 # Favicon to be rendered
-#favicon: valtix-favico.ico
+favicon: valtix-favico.ico
 
 # Copyright
 copyright: 'Copyright &copy; 2020 CN'
