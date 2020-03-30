@@ -12,7 +12,7 @@ nav:
   - page 3: page3.md
 
 # Configuration
-theme: readthedocs
+theme: mkdocs
 
 # Favicon to be rendered
 #favicon: valtix-favico.ico
