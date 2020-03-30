@@ -5,14 +5,14 @@ site_author: n/a
 
 # Page tree
 nav:
-- Home: 'index.md'
+- Home: index.md
 - Guide 1: 
-  - 'Welcome Page': 'page1.md'
+  - Welcome Page: page1.md
   - page 2: page2.md
   - page 3: page3.md
 
 # Configuration
-theme: jekyll-theme-cayman
+theme: readthedocs
 
 # Favicon to be rendered
 #favicon: valtix-favico.ico
