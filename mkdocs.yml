@@ -10,7 +10,11 @@ nav:
   - Welcome Page: page1.md
   - page 2: page2.md
   - page 3: page3.md
-
+- Guide 2:
+  - G2P1: page1.md
+  - G2p2: page2.md
+  - G2p3: page3.md
+        
 # Configuration
 theme: readthedocs
 
@@ -19,3 +23,6 @@ theme: readthedocs
 
 # Copyright
 copyright: 'Copyright &copy; 2020 CN'
+
+plugins:
+    - search
