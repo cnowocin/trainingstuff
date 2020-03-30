@@ -6,7 +6,7 @@ site_author: n/a
 # Page tree
 nav:
   - Home: index.md
-  - User Guide:
+  - Guide 1: parent.md
     - Welcome Page: page1.md
     - page 2: page2.md
     - page 3: page3.md
