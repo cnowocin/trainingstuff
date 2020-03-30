@@ -1,0 +1,32 @@
+# Project information
+site_name: Valtix Product Documentation
+site_description: Valtix Security Platform User Documentation
+site_author: Valtix, Inc.
+#site_url: https://valtix.readthedocs.io/
+
+# Page tree
+nav:
+  - Home: index.md
+  - User Guide:
+    - Welcome to Valtix: welcome.md
+    - Initial Setup: setup.md
+    - Account Management: account.md
+    - Gateway Management: gateway.md
+    - Security Policy: security.md
+    - Profiles: profiles.md
+  - Getting Started Guides:
+    - Azure Deployment:
+    - AWS Deployment:
+  - Release Notes:
+    - Release 1.2:
+    - Release 2.0:
+
+# Configuration
+theme: readthedocs
+logo: 'valtix_logo.png'
+
+# Favicon to be rendered
+favicon: valtix-favico.ico
+
+# Copyright
+copyright: 'Copyright &copy; 2020 Valtix'
