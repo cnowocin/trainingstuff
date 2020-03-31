@@ -37,6 +37,16 @@ div.rst-versions .rst-current-version {
   text-align: right;
   font-size: 90%;
   cursor: pointer;
-  color: #27AE60;
-  *zoom: 1
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+    background-color: #f2f2f2;
 }
