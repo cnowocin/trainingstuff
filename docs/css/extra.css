@@ -1,27 +1,42 @@
-div.col-md-9 h1:first-of-type {
-    text-align: center;
-    font-size: 60px;
-    font-weight: 300;
+#Top nav search bar
+div.wy-nav-side {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 2em;
+  width: 300px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  min-height: 100%;
+  color: #515353;
+  background: #1f1e1e;
+  z-index: 200
 }
 
-div.col-md-9>p:first-of-type {
-    text-align: center;
+#Book Title
+div.wy-menu-vertical header, .wy-menu-vertical p.caption {
+  height: 32px;
+  color: #0695A7;
+  display: inline-block;
+  line-height: 32px;
+  padding: 0 1.618em;
+  margin-bottom: 0;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 80%;
+  white-space: nowrap
 }
 
-div.col-md-9 p.admonition-title:first-of-type {
-    text-align: left;
-}
-
-div.col-md-9 h1:first-of-type .headerlink {
-    display: none;
-}
-
-code.no-highlight {
-    color: black;
-}
-
-/* Definition List styles */
-
-dd {
-    padding-left: 20px;
+#Bottom of navigation
+.rst-versions .rst-current-version {
+  padding: 12px;
+  background-color: #0695A7;
+  display: block;
+  text-align: right;
+  font-size: 90%;
+  cursor: pointer;
+  color: #27AE60;
+  *zoom: 1
 }
