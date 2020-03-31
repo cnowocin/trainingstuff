@@ -1,4 +1,4 @@
-#Top nav search bar
+#Top nav search bar#
 div.wy-nav-side {
   position: fixed;
   top: 0;
@@ -14,7 +14,7 @@ div.wy-nav-side {
   z-index: 200
 }
 
-#Book Title
+#Book Title#
 div.wy-menu-vertical header, .wy-menu-vertical p.caption {
   height: 32px;
   color: #0695A7;
@@ -29,7 +29,7 @@ div.wy-menu-vertical header, .wy-menu-vertical p.caption {
   white-space: nowrap
 }
 
-#Bottom of navigation
+#Bottom of navigation#
 .rst-versions .rst-current-version {
   padding: 12px;
   background-color: #0695A7;
