@@ -1,5 +1,5 @@
 /*Top nav search bar*/
-div.wy-nav-side {
+.wy-nav-side {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -15,7 +15,7 @@ div.wy-nav-side {
 }
 
 /*Book Title*/
-div.wy-menu-vertical header, .wy-menu-vertical p.caption {
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
   height: 32px;
   color: #0695A7;
   display: inline-block;
@@ -30,7 +30,7 @@ div.wy-menu-vertical header, .wy-menu-vertical p.caption {
 }
 
 /*Bottom of navigation*/
-.rst-versions .rst-current-version {
+div.rst-versions .rst-current-version {
   padding: 12px;
   background-color: #0695A7;
   display: block;
