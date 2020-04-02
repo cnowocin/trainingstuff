@@ -1,52 +1,83 @@
-/*Top nav search bar*/
+/*LEft navigation*/
+/*book title*/
 .wy-nav-side {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  padding-bottom: 2em;
-  width: 300px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  min-height: 100%;
-  color: #515353;
-  background: #1f1e1e;
-  z-index: 200
+  color: #9c9fa2;
+  background: #515353;
 }
 
-/*Book Title*/
-.wy-menu-vertical header, .wy-menu-vertical p.caption {
-  height: 32px;
-  color: #0695A7;
-  display: inline-block;
-  line-height: 32px;
-  padding: 0 1.618em;
-  margin-bottom: 0;
-  display: block;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 80%;
-  white-space: nowrap
+/*whole background*/
+.wy-side-scroll {
+    background-color: #515353;
+}
+
+/*Search box*/
+.wy-side-nav-search {
+  background-color: #458298;
+}
+
+/*Selected chapter*/
+.wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
+  color: #01b3b6;
+  background: #515353;
+}
+
+.wy-menu-vertical a {
+    color: #FFFFFF;
+    background: #515353;
+}
+
+/*Border around selected chapter*/
+.wy-menu-vertical li.toctree-l1.current>a {
+  border-bottom: none;
+  border-top: none;
+}
+
+.wy-menu-vertical li.toctree-l2.current>a {
+  background: #515353;
+  padding: .4045em 2.427em;
+  color: #b8babc;
+}
+
+/*Selected option expand-collapse button*/
+.wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current>a span.toctree-expand {
+    color: #FFFFFF;
+    background: #515353;
 }
 
 /*Bottom of navigation*/
-div.rst-versions .rst-current-version {
-  padding: 12px;
-  background-color: #0695A7;
-  display: block;
-  text-align: right;
-  font-size: 90%;
-  cursor: pointer;
+.rst-versions .rst-current-version {
+  background-color: #458298;
 }
 
+/*tables*/
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-tr:nth-child(even) {
-  background-color: #f2f2f2;
+td, th {
+    border: 1px solid #e1e4e5;
+    border-collapse: collapse;
+    padding: 6px;
 }
 
 th {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+@media screen and (min-width: 1100px) {
+  .wy-nav-content-wrap {
+    background: #fcfcfc;
+  }
+
+  .wy-nav-content {
+    margin: 0;
+    background: #fcfcfc;
+  }
+}
+
+/*Right Content Layout*/
+.wy-nav-content {
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
 }
