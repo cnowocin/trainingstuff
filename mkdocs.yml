@@ -17,12 +17,8 @@ nav:
         
 # Configuration
 theme: readthedocs
-
 extra_css:
     - css/extra.css
-
-# Favicon to be rendered
-favicon: valtix-favico.ico
 
 # Copyright
 copyright: 'Copyright &copy; 2020 CN'
