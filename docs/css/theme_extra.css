@@ -10,7 +10,7 @@
   font-display: block;
 }
 
-.icon-home:before {
+.fa-home:before, .icon-home:before {
   content: "\e900";
   color: #fff;
   font-family: 'icomoon' !important;
