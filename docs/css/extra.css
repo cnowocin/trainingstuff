@@ -107,3 +107,7 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+a.icon.icon-home {
+  background-image: url(/images/logo.svg);
+}
