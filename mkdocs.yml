@@ -19,6 +19,7 @@ nav:
 theme: readthedocs
 extra_css:
     - css/extra.css
+    - css/theme_extra.css
 
 # Copyright
 copyright: 'Copyright &copy; 2020 CN'
