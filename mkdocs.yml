@@ -7,15 +7,13 @@ site_author: n/a
 nav:
 - Home: index.md
 - Guide 1: 
-  - Welcome Page: user_guide/setup/setup.md
-    - user_guide/setup/accessing.md
-    - user_guide/setup/understanding.md
+  - Welcome Page: 'user_guide/setup/setup.md'
+    - '1 Platform beginner tutorial': 'user_guide/setup/accessing.md'
+    - '2 Platform beginner tutorial': 'user_guide/setup/understanding.md'
   - page 2: page2.md
   - page 3: page3.md
 - Guide 2:
   - G2P1: user_guide/account/account.md
-    - user_guide/account/viewing_accounts.md
-    - user_guide/account/adding_accounts.md
   - G2p2: page2.md
   - G2p3: page3.md
         
