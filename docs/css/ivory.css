@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "icomoon";
+  src:  url("../fonts/icomoon.eot?k71y2f");
+  src:  url("../fonts/icomoon.eot?k71y2f#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?k71y2f") format("truetype"),
+    url("../fonts/icomoon.woff?k71y2f") format("woff"),
+    url("../fonts/icomoon.svg?k71y2f#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* Navigation Side Bar */
+.site-name::before {
+  content: "";
+  font-family: "icomoon";
+}
+
+.home {
+  background: #458298;
+}
+
+.nav {
+    background: #e3e4e7;
+}
+
+.toctree-l1 {
+    margin: 15px 0px;
+}
+
+/* setup guides, home */
+.toctree-l1 > button, .toctree-l1 > a {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 0px;
+    color: #666666 !important;
+}
+
+.toctree-l1 > button:hover, .toctree-l1 > a:hover {
+    background-color: #bbbbbb !important;
+}
+
+/* each li inside toctree-l1, eg AWS setup guide, Azure setup guide */
+.toctree-l2 {
+    margin: 4px 0px;
+}
+
+/* AWS Setup guide */
+.toctree-l2 button {
+    color: #01b3b6 !important;
+    background: none;
+}
+
+.toctree-l2 button:hover {
+    background: #eeeeee !important;
+}
+
+.toctree-l3 {
+    margin: 2px 0px;
+}
+
+.toctree-l3 a {
+    color: #333333 !important;
+}
+
+.toctree-l3 a:hover {
+    background: #eeeeee !important;
+}
+
+.toctree-l3.current a {
+    background-color: #bbbbbb;
+    color: #000000;
+}
+
+#content li {
+    margin: 10px 0px;
+    line-height: 1.4;
+}
+
+.breadcrumbs li {
+    color: red;
+    font-size: 16px;
+}
+
+/*Bottom of navigation*/
+
+.repo {
+    background: #458298;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Main Parameters */
+
+img {
+    width: unset;
+    border: 2px solid #777777;
+}
+
+table {
+    margin: unset;
+}
+
+th, td {
+    padding: 10px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+a {
+  color: transparent;
+}
