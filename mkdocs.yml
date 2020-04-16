@@ -6,15 +6,79 @@ site_author: n/a
 # Page tree
 nav:
 - Home: index.md
-- Guide 1: 
-  - page 2: page2.md
-  - page 3: page3.md
-- Guide 2:
-  - G2p2: page2.md
-  - G2p3: page3.md
+- Setup Guides:
+  - AWS Setup Guide:
+    - Overview: AWS_setup_guide/sg_aws_overview.md
+    - Onboarding: AWS_setup_guide/sg_aws_onboarding.md
+    - Preparing Your Account: AWS_setup_guide/sg_aws_preparing.md
+    - Enabling CloudTrail: AWS_setup_guide/sg_aws_enable_cloudtrail.md
+    - Enabling VPC flow logs: AWS_setup_guide/sg_aws_enable_vpc_flow_log.md
+  - Azure Setup Guide:
+    - Overview: Azure_setup_guide/sg_azure_overview.md
+    - Preparing Your Deployment: Azure_setup_guide/sg_azure_preparing.md
+    - Registering the Valtix Settings: Azure_setup_guide/sg_azure_registering.md
+    - Setting Up Your Azure Gateway: Azure_setup_guide/sg_azure_setting_up.md
+- User Guide:
+  - Dashboard:
+    - Dashboard:
+      - Understanding the Dashboard: user_guide/setup/ug_setup_understanding.md
+  - Investigate:
+    - System Status:
+      - Audit Logs: user_guide/investigate/system_status/ug_audit_logs.md
+      - System Logs: user_guide/investigate/system_status/ug_system_logs.md
+    - Flow Analytics:
+      - All Events: user_guide/investigate/flow_analytics/ug_all_events.md
+      - Flow Logs: user_guide/investigate/flow_analytics/ug_flow_logs.md
+      - Firewall Events: user_guide/investigate/flow_analytics/ug_firewall_events.md
+      - Network Threats: user_guide/investigate/flow_analytics/ug_network_threats.md
+      - Web Attacks: user_guide/investigate/flow_analytics/ug_web_attacks.md
+      - HTTPS Logs: user_guide/investigate/flow_analytics/ug_https_logs.md
+      - Reports: user_guide/investigate/flow_analytics/ug_reports.md
+    - Network Analytics:
+      - Stats: user_guide/investigate/network_analytics/ug_stats.md
+  - Manage:
+    - Security Policies:
+      - Rules: user_guide/security/ug_security_rules.md
+      - Addresses: user_guide/security/ug_security_address.md
+      - DNS Records: user_guide/security/ug_dns_records.md
+      - Services: user_guide/security/ug_security_services.md
+      - Certificates: user_guide/security/ug_sertificates.md
+    - Profiles:
+      - Decryption: user_guide/profiles/decryption/ug_profiles_decryption.md
+      - Network Intrusion: user_guide/profiles/network_intrusion/ug_profiles_network_intrusion.md
+      - Web Protection: user_guide/profiles/web_protection/ug_profiles_web_protection.md
+      - Malicious Sources: user_guide/profiles/malicious/ug_profiles_malicious.md
+      - Packet Capture: user_guide/profiles/packet_capture/ug_profiles_packet_capture.md
+      - Log Forwarding: user_guide/profiles/log_forwarding/ug_profiles_log_forwarding.md
+      - Diagnostics: user_guide/profiles/diagnostics/ug_profiles_diagnostics.md
+      - DNS: user_guide/profiles/dns/ug_profiles_dns.md
+    - Cloud Accounts:
+      - Accounts: user_guide/manage/cloud_accounts/ug_accounts.md
+      - Inventory: user_guide/manage/cloud_accounts/ug_inventory.md
+    - Gateways:
+      - Gateways:
+        - Overview: user_guide/gateway/ug_gateways.md
+        - Viewing gateways: user_guide/gateway/ug_gateways_viewing.md
+        - Adding gateways: user_guide/gateway/ug_gateways_adding.md
+    - VPN:
+      - VPN Gateways: user_guide/manage/vpn/ug_vpn_gateways.md
+      - Customer Gateways: user_guide/manage/vpn/ug_customer_gateways.md
+      - VPN Connections: user_guide/manage/vpn/ug_vpn_connections.md
+  - Settings:
+    - Management:
+      - Users: user_guide/settings/management/ug_management_users.md
+      - Roles: user_guide/settings/management/ug_management_roles.md
+      - Account: user_guide/settings/management/ug_management_account.md
+      - System: user_guide/settings/management/ug_management_system.md
+    - Alert Profiles:
+      - Services: user_guide/settings/alert_profiles/ug_alert_profiles_services.md
+      - Alert: user_guide/settings/alert_profiles/ug_alert_profiles_alert.md
+- Features:
+      - Alerting: user_guide/features/ug_ft_alerting.md
+      - Syslog Forwarding: user_guide/features/ug_ft_syslog_forwarding.md
         
 # Configuration
-theme: readthedocs
+theme: ivory
 extra_css:
     - css/extra.css
 
