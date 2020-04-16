@@ -1,87 +1,73 @@
-/*LEft navigation*/
-/*book title*/
-.wy-nav-side {
-  color: #9c9fa2;
-  background: #515353;
+Top nav search bar
+div.wy-side-nav-search {
+  display: block;
+  width: 300px;
+  padding: .809em;
+  margin-bottom: .809em;
+  z-index: 200;
+  background-color: #0695A7;
+  text-align: center;
+  padding: .809em;
+  display: block;
+  color: #fcfcfc;
+  margin-bottom: .809em
 }
 
-/*whole background*/
-.wy-side-scroll {
-    background-color: #515353;
-}
+Navigation Logo
+a.icon.icon-home
 
-/*Search box*/
+#Book Title
 .wy-side-nav-search {
-  background-color: #458298;
+  display: block;
+  width: 300px;
+  padding: .809em;
+  margin-bottom: .809em;
+  z-index: 200;
+  background-color: #0695A7;
+  text-align: center;
+  padding: .809em;
+  display: block;
+  color: #fcfcfc;
+  margin-bottom: .809em
 }
 
-/*Selected chapter*/
-.wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
-  color: #01b3b6;
-  background: #515353;
-}
-
-.wy-menu-vertical a {
-    color: #FFFFFF;
-    background: #515353;
-}
-
-/*Border around selected chapter*/
-.wy-menu-vertical li.toctree-l1.current>a {
-  border-bottom: none;
-  border-top: none;
-}
-
-.wy-menu-vertical li.toctree-l2.current>a {
-  background: #515353;
-  padding: .4045em 2.427em;
-  color: #b8babc;
-}
-
-/*Selected option expand-collapse button*/
-.wy-menu-vertical li.on a span.toctree-expand, .wy-menu-vertical li.current>a span.toctree-expand {
-    color: #FFFFFF;
-    background: #515353;
-}
-
-/*Bottom of navigation*/
+#Bottom of navigation
 .rst-versions .rst-current-version {
-  background-color: #458298;
+  padding: 12px;
+  background-color: #0695A7;
+  display: block;
+  text-align: right;
+  font-size: 90%;
+  cursor: pointer;
+  color: #27AE60;
+  *zoom: 1
 }
 
-/*tables*/
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-td, th {
-    border: 1px solid #e1e4e5;
-    border-collapse: collapse;
-    padding: 6px;
-}
-
-th {
-  background-color: #f2f2f2;
-}
-
-@media screen and (min-width: 1100px) {
-  .wy-nav-content-wrap {
-    background: #fcfcfc;
-  }
-
-  .wy-nav-content {
-    margin: 0;
-    background: #fcfcfc;
-  }
-}
-
-/*Right Content Layout*/
-.wy-nav-content {
-    height: 100%;
-    max-width: 100%;
-    margin: auto;
+.fa-home:before, .icon-home:before {
+  content: ""
 }
 
 a.icon.icon-home {
-  background: url(../img/logo.svg);
+  background: url(/img/logo.svg);
+}
+
+.fa-home:before, .icon-home:before {
+  background-image: url(/img/logo.png);
+}
+
+table
+
+.wy-side-nav-search>a.icon img.logo, .wy-side-nav-search .wy-dropdown>a.icon img.logo {
+  margin-top: .85em
+
+}
+
+#Nav background
+.wy-nav-side
+color: #515353
+background: #1f1e1e
+
+.wy-plain-list-disc, .rst-content .section ul, .rst-content .toctree-wrapper ul, article ul {
+  list-style: disc;
+  line-height: 24px;
 }
