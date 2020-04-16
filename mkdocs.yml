@@ -80,7 +80,7 @@ nav:
 # Configuration
 theme: ivory
 extra_css:
-    - css/extra.css
+    - css/ivory.css
 
 # Copyright
 copyright: 'Copyright &copy; 2020 CN'
